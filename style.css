@@ -1,0 +1,58 @@
+body {
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+ul {
+	list-style-type: none;
+	display: flex;
+	gap: 25px;
+}
+
+.topsection {
+	display: flex;
+	background-color: maroon;
+}
+
+.statement {
+	display: flex;
+	flex-flow: column nowrap;
+	flex: auto;
+	color: white;
+	justify-content: center;
+}
+
+.main-img {
+}
+
+.midsection {
+	display: flex;
+	flex-flow: column;
+	background-color: #d3d3d3;
+	align-items: space-around;
+}
+
+.cardlist {
+	display: flex;
+	flex-flow: row;
+}
+
+h2 { 
+	align-self: center;
+}
+
+.card {
+}
+
+.bottomsection {
+	display: flex;
+	background-color: maroon;
+	color: white;
+}
